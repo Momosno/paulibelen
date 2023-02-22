@@ -1,0 +1,3 @@
+-Cabmiar disposicion BOTONES
+    -Pegados a la iquierda
+    
