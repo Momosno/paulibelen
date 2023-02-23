@@ -4,9 +4,9 @@
 }
 
 body {
-	height: 100%;
-	background-color: antiquewhite;
 
+	background: rgb(157,84,24);
+background: linear-gradient(0deg, rgba(157,84,24,1) 0%, rgba(199,96,76,1) 0%, rgba(251,184,171,1) 80%);
 
 	display: grid;
 
@@ -54,9 +54,9 @@ body {
 	background-repeat: no-repeat;
 	background-size: cover;
 	background-attachment: local;
-	box-shadow: 0px 13px 33px 9px rgba(123,98,102,0.75);
--webkit-box-shadow: 0px 13px 33px 9px rgba(123,98,102,0.75);
--moz-box-shadow: 0px 13px 33px 9px rgba(123,98,102,0.75);
+	box-shadow: 0px 13px 33px 9px rgba(44, 35, 36, 0.75);
+-webkit-box-shadow: 0px 13px 33px 9px rgba(44, 35, 36, 0.75);
+-moz-box-shadow: 0px 13px 33px 9px rgba(44, 35, 36, 0.75);
 
 
 
@@ -129,11 +129,68 @@ footer {
 	grid: 3/1/4/2;
 }
 
-.circle{
-	height: 100px;
-	width: 100px;
+.card-right{
+	display: none;
 }
 
+
+
+/* .circle{
+	height: 100px;
+	width: 100px;
+} */
+
+/*Media Query*/
+
+@media (min-width:730px){
+
+	.card{
+		grid-template-columns: 1fr 1fr;
+		background-image: none;
+		padding-right: 8px;
+	}
+
+	.card-left{
+		width: 85%;
+	}
+
+	.card-right{
+
+		
+		top:0;
+		position: relative;
+		display: grid;
+		width:110%;
+		height: 100%;
+		background-image: url("mountains-moon-trees-minimalism-hd-1920x1080.jpg");
+		background-position: center center;
+		background-repeat: no-repeat;
+		background-size: cover;
+		background-attachment: local;
+		border-radius: 20px;
+		right: 39px;
+
+	}
+
+	.enlaces{
+		position: relative;
+		left: 10px;
+	}
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+/*LINKS*/
 
 a:link {
 	text-decoration: none;
@@ -193,6 +250,8 @@ a:active {
 	right: 100%;
 	border-radius: 15px 15px 15px 0;
 
+	-moz-transition: all 0.35s;
+	-webkit-transition: all 0.35s;
 	transition: all 0.35s;
   }
   .ov-btn-slide-left:hover::after {
@@ -201,8 +260,7 @@ a:active {
 	top: 0;
 	bottom: 0;
 
-
+	-moz-transition: all 0.35s;
+	-webkit-transition: all 0.35s;
 	transition: all 0.35s;
   }
-
-  
