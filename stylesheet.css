@@ -1,3 +1,19 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+/* font-family: 'Lobster', cursive; */
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap');
+/* font-family: 'Dancing Script', cursive; */
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa&display=swap');
+/* font-family: 'Comfortaa', cursive; */
+@import url('https://fonts.googleapis.com/css2?family=Satisfy&display=swap');
+/* font-family: 'Satisfy', cursive; */
+@import url('https://fonts.googleapis.com/css2?family=Chakra+Petch:ital@0;1&display=swap');
+/* font-family: 'Chakra Petch', sans-serif; */
+@import url('https://fonts.googleapis.com/css2?family=Cormorant:ital@0;1&display=swap');
+/* font-family: 'Cormorant', serif; */
+
+
+
+
 * {
 	margin: 0;
 	padding: 0;
@@ -7,6 +23,7 @@ body {
 
 	background: rgb(157,84,24);
 background: linear-gradient(0deg, rgba(157,84,24,1) 0%, rgba(199,96,76,1) 0%, rgba(251,184,171,1) 80%);
+
 
 	display: grid;
 
@@ -89,7 +106,10 @@ background: linear-gradient(0deg, rgba(157,84,24,1) 0%, rgba(199,96,76,1) 0%, rg
 	grid-area: 1/1/2/2;
 	height: 100%;
 	display: grid;
-	font-family: Vegur, 'PT Sans', Verdana, sans-serif;
+	font-family: 'Lobster', cursive;
+	font-size: 25px;
+
+	/* font-family: Vegur, 'PT Sans', Verdana, sans-serif; */
 	row-gap: 8px;
 
 
@@ -101,7 +121,10 @@ background: linear-gradient(0deg, rgba(157,84,24,1) 0%, rgba(199,96,76,1) 0%, rg
 	font-size: large;
 	display: grid;
 	justify-content: left;
-	font-family: 'Playfair Display', serif;
+	/* font-family: 'Playfair Display', serif; */
+	font-family: 'Cormorant', serif;
+	font-size: 22px;
+	
 
 }
 

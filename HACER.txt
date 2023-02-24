@@ -1,3 +1,1 @@
--Cabmiar disposicion BOTONES
-    -Pegados a la iquierda
-    
+DIFUMINADO IZQ A DER
