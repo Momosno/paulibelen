@@ -13,7 +13,6 @@
 
 
 
-
 * {
 	margin: 0;
 	padding: 0;
@@ -28,17 +27,15 @@ body {
 	/* background: rgb(255, 255, 255);
 background: linear-gradient(0deg, rgba(2,0,36,1) 0%, rgba(9,9,121,0.7792250689338236) 0%, rgba(0,212,255,1) 100%); */
 
-background: rgb(2,0,36);
-background: linear-gradient(0deg, rgba(2,0,36,1) 0%, rgba(89,32,32,0) 0%, rgba(58,71,171,1) 0%, rgba(18,17,71,1) 0%, rgba(61,108,246,1) 100%);
-
+	background: rgb(2, 0, 36);
+	background: linear-gradient(0deg, rgba(2, 0, 36, 1) 0%, rgba(89, 32, 32, 0) 0%, rgba(58, 71, 171, 1) 0%, rgba(18, 17, 71, 1) 0%, rgba(61, 108, 246, 1) 100%);
 
 	display: grid;
-
-	grid-template-rows: 75px 1fr;
-	row-gap: 20px;
-
+	grid-template-rows: 100px 1fr;
+	row-gap: 25px;
 
 	padding: 20px;
+	padding-top: 25px;
 
 }
 
@@ -49,9 +46,10 @@ background: linear-gradient(0deg, rgba(2,0,36,1) 0%, rgba(89,32,32,0) 0%, rgba(5
 	grid: 1/1/2/2;
 	width: 200px;
 	align-items: center;
+
 }
 
-.logo{
+.logo {
 	justify-self: center;
 	width: 100%;
 	height: 75%;
@@ -60,11 +58,16 @@ background: linear-gradient(0deg, rgba(2,0,36,1) 0%, rgba(89,32,32,0) 0%, rgba(5
 
 .container-card {
 
+	position: relative;
+
+
 	display: grid;
-	max-width: 100%;
+	margin:0px;
+
 	width: 100%;
+	height: 100%;
 	justify-self: center;
-	grid: 2/1/3/2;
+	grid-area: 2/1/3/2;
 
 
 	align-items: center;
@@ -73,36 +76,63 @@ background: linear-gradient(0deg, rgba(2,0,36,1) 0%, rgba(89,32,32,0) 0%, rgba(5
 	align-content: center;
 }
 
-
 .card {
-	width: 90%;
-	height: 95%;
-	margin: 15px;
+	position: relative;
+	width: 100%;
+	height: 100%;
+	margin: 0px;
 	display: grid;
+	align-items: center;
+	align-content: center;
+	justify-items: center;
+
 	background-color: black;
-	padding: 10px;
+
 	border-radius: 20px;
-	background-image: url("./assets/portada.png");
+
+	
+}
+
+.img-wrapper {
+	position: absolute;
+	margin-left: auto;
+	margin-right: auto;
+	left: 0;
+	right: 0;
+	text-align: center;
+	opacity: 0.5;
+
+	width: 100%;
+	height: 100%;
+
+
+	display: block;
+	background-color: rgb(255, 255, 255);
+	border-radius: 20px;
+
+	background-image: url("./assets/forest-scenery-watchtower-firewatch-digital-art-background-hd-wallpaper-uhdpaper.com-426@0@e.jpg");
 	background-position: center center;
 	background-repeat: no-repeat;
 	background-size: cover;
 	background-attachment: local;
+
 	box-shadow: 0px 13px 33px 9px rgba(44, 35, 36, 0.75);
--webkit-box-shadow: 0px 13px 33px 9px rgba(44, 35, 36, 0.75);
--moz-box-shadow: 0px 13px 33px 9px rgba(44, 35, 36, 0.75);
-
-
-
+	-webkit-box-shadow: 0px 13px 33px 9px rgba(44, 35, 36, 0.75);
+	-moz-box-shadow: 0px 13px 33px 9px rgba(44, 35, 36, 0.75);
 
 
 }
 
 
-.card-left {
 
+
+.card-left {
+	position: relative;
 
 	top: 0;
 	left: 0;
+	
+	align-self: center;
 
 	display: grid;
 	grid-template-rows: 0.15fr 1fr;
@@ -112,12 +142,12 @@ background: linear-gradient(0deg, rgba(2,0,36,1) 0%, rgba(89,32,32,0) 0%, rgba(5
 	height: 100%;
 
 	padding: 10px;
-	margin-bottom: 10px;
+
 
 	color: aliceblue;
 
-
-
+	opacity: 1.0;
+	
 }
 
 .encabezado {
@@ -129,12 +159,14 @@ background: linear-gradient(0deg, rgba(2,0,36,1) 0%, rgba(89,32,32,0) 0%, rgba(5
 
 	/* font-family: Vegur, 'PT Sans', Verdana, sans-serif; */
 	row-gap: 8px;
-
-
+	padding-top: 20px;
+	padding-left: 20px;
+	
 }
 
 
 .container-enlaces {
+	align-self: center;
 	grid-area: 2/1/3/2;
 	font-size: large;
 	display: grid;
@@ -142,8 +174,7 @@ background: linear-gradient(0deg, rgba(2,0,36,1) 0%, rgba(89,32,32,0) 0%, rgba(5
 	/* font-family: 'Playfair Display', serif; */
 	font-family: 'Cormorant', serif;
 	font-size: 22px;
-	
-
+	padding-left: 25px;
 }
 
 .enlaces {
@@ -153,14 +184,11 @@ background: linear-gradient(0deg, rgba(2,0,36,1) 0%, rgba(89,32,32,0) 0%, rgba(5
 
 }
 
-
-
-
 ul li {
 	display: grid;
-	align-self:center;
+	align-self: center;
 	list-style: none;
-	
+
 
 }
 
@@ -170,7 +198,7 @@ footer {
 	grid: 3/1/4/2;
 }
 
-.card-right{
+.card-right {
 	display: none;
 }
 
@@ -183,24 +211,33 @@ footer {
 
 /*--------------------------Media Query--------------------*/
 
-@media (min-width:730px){
+@media (min-width:730px) {
 
-	.card{
+	.card {
 		max-width: 800px;
 		grid-template-columns: 1fr 1fr;
 		background-image: none;
-		padding-right: 8px;
+		padding: 5px;
+		padding-right: 10px;
 	}
 
-	.card-left{
+	.img-wrapper {
+		display: none;
+	}
+
+	.encabezado{
+		padding-left: 0px;
+	}
+
+	.card-left {
 		width: 85%;
 	}
 
-	.card-right{
+	.card-right {
 		display: grid;
-		width:100%;
+		width: 100%;
 		height: 100%;
-		background-image: url("./assets/portada.png");
+		background-image: url("./assets/forest-scenery-watchtower-firewatch-digital-art-background-hd-wallpaper-uhdpaper.com-426@0@e.jpg");
 		background-position: center center;
 		background-repeat: no-repeat;
 		background-size: cover;
@@ -208,25 +245,21 @@ footer {
 		border-radius: 20px;
 		opacity: 1;
 
-	
-	
+
+
 	}
 
-	.enlaces{
+	.enlaces {
 		position: relative;
 		left: 10px;
 	}
 
+	.container-enlaces{
+		padding-left: 0px;
+	}
+
 
 }
-
-
-
-
-
-
-
-
 
 
 
@@ -250,16 +283,15 @@ a:active {
 
 
 
-
-
-
 /*** ESTILOS BOTÓN SLIDE LEFT ***/
 .ov-btn-slide-left {
-	
-	color: #fff; /* color de fuente */
-	
+
+	color: #fff;
+	/* color de fuente */
+
 	padding: 3px 10px;
-	border-radius: 3px; /* redondear bordes */
+	border-radius: 3px;
+	/* redondear bordes */
 	position: relative;
 	z-index: 1;
 	overflow: hidden;
@@ -272,14 +304,17 @@ a:active {
 	width: 100%;
 	cursor: pointer;
 
-  }
-  .ov-btn-slide-left:hover {
-	color: #fff; /* color de fuente hover */
-  }
-  
-  .ov-btn-slide-left::after {
+}
+
+.ov-btn-slide-left:hover {
+	color: #fff;
+	/* color de fuente hover */
+}
+
+.ov-btn-slide-left::after {
 	content: "";
-	background: #7646EB; /* color de fondo hover */
+	background: #7646EB;
+	/* color de fondo hover */
 	position: absolute;
 	z-index: -1;
 	padding: 16px 20px;
@@ -293,8 +328,9 @@ a:active {
 	-moz-transition: all 0.35s;
 	-webkit-transition: all 0.35s;
 	transition: all 0.35s;
-  }
-  .ov-btn-slide-left:hover::after {
+}
+
+.ov-btn-slide-left:hover::after {
 	left: 0;
 	right: 0;
 	top: 0;
@@ -303,4 +339,4 @@ a:active {
 	-moz-transition: all 0.35s;
 	-webkit-transition: all 0.35s;
 	transition: all 0.35s;
-  }
+}
