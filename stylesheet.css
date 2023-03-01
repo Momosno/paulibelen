@@ -12,7 +12,6 @@
 /* font-family: 'Cormorant', serif; */
 
 
-
 * {
 	margin: 0;
 	padding: 0;
@@ -154,13 +153,24 @@ background: linear-gradient(0deg, rgba(2,0,36,1) 0%, rgba(9,9,121,0.779225068933
 	grid-area: 1/1/2/2;
 	height: 100%;
 	display: grid;
-	font-family: 'Lobster', cursive;
+	
 	font-size: 25px;
 
-	/* font-family: Vegur, 'PT Sans', Verdana, sans-serif; */
+	font-family: 'Lobster', cursive;
+
+	/* font-family: 'Dancing Script', cursive; */
+
+	/* font-family: 'Comfortaa', cursive; */
+
+	/* font-family: 'Satisfy', cursive; */
+
+	/* font-family: 'Chakra Petch', sans-serif; */
+
+	/* font-family: 'Cormorant', serif; */
 	row-gap: 8px;
 	padding-top: 20px;
 	padding-left: 20px;
+	letter-spacing: 1px;
 	
 }
 
@@ -171,10 +181,22 @@ background: linear-gradient(0deg, rgba(2,0,36,1) 0%, rgba(9,9,121,0.779225068933
 	font-size: large;
 	display: grid;
 	justify-content: left;
-	/* font-family: 'Playfair Display', serif; */
+	
+	/* font-family: 'Lobster', cursive; */
+
+	/* font-family: 'Dancing Script', cursive; */
+
+	/* font-family: 'Comfortaa', cursive; */
+
+	/* font-family: 'Satisfy', cursive; */
+
+	/* font-family: 'Chakra Petch', sans-serif; */
+
 	font-family: 'Cormorant', serif;
 	font-size: 22px;
+	letter-spacing: 3px;
 	padding-left: 25px;
+	/* font-weight:bold; */
 }
 
 .enlaces {
