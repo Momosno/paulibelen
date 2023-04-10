@@ -22,9 +22,8 @@
 }
 
 body {
-
-	background: rgb(181, 113, 221);
-	background: linear-gradient(0deg, rgba(181, 113, 221, 1) 20%, rgba(80, 182, 223, 1) 100%);
+	background: rgb(166,3,47);
+	background: linear-gradient(0deg, rgba(166,3,47,0.4290966386554622) 22%, rgba(243,228,205,0.8016456582633054) 71%);
 	display: grid;
 	grid-template-rows: 100px 1fr;
 	row-gap: 25px;
@@ -105,7 +104,7 @@ body {
 	background-color: rgb(255, 255, 255);
 	border-radius: 20px;
 
-	background-image: url("assets/portada.png");
+	background-image: url("assets/portada.jpg");
 	background-position: center center;
 	background-repeat: no-repeat;
 	background-size: cover;
@@ -243,7 +242,7 @@ footer {
 		display: grid;
 		width: 100%;
 		height: 100%;
-		background-image: url("assets/portada.png");
+		background-image: url("assets/portada.jpg");
 		background-position: center center;
 		background-repeat: no-repeat;
 		background-size: cover;
@@ -319,7 +318,7 @@ a:active {
 
 .ov-btn-slide-left::after {
 	content: "";
-	background: #501fce;
+	background: #FA8072;
 	/* color de fondo hover */
 	position: absolute;
 	z-index: -1;
