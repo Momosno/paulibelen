@@ -1,28 +1,32 @@
-Cormorant Variable Font
-=======================
+Josefin Sans Variable Font
+==========================
 
-This download contains Cormorant as both variable fonts and static fonts.
+This download contains Josefin Sans as both variable fonts and static fonts.
 
-Cormorant is a variable font with this axis:
+Josefin Sans is a variable font with this axis:
   wght
 
 This means all the styles are contained in these files:
-  Cormorant/Cormorant-VariableFont_wght.ttf
-  Cormorant/Cormorant-Italic-VariableFont_wght.ttf
+  Josefin_Sans/JosefinSans-VariableFont_wght.ttf
+  Josefin_Sans/JosefinSans-Italic-VariableFont_wght.ttf
 
 If your app fully supports variable fonts, you can now pick intermediate styles
 that aren’t available as static fonts. Not all apps support variable fonts, and
-in those cases you can use the static font files for Cormorant:
-  Cormorant/static/Cormorant-Light.ttf
-  Cormorant/static/Cormorant-Regular.ttf
-  Cormorant/static/Cormorant-Medium.ttf
-  Cormorant/static/Cormorant-SemiBold.ttf
-  Cormorant/static/Cormorant-Bold.ttf
-  Cormorant/static/Cormorant-LightItalic.ttf
-  Cormorant/static/Cormorant-Italic.ttf
-  Cormorant/static/Cormorant-MediumItalic.ttf
-  Cormorant/static/Cormorant-SemiBoldItalic.ttf
-  Cormorant/static/Cormorant-BoldItalic.ttf
+in those cases you can use the static font files for Josefin Sans:
+  Josefin_Sans/static/JosefinSans-Thin.ttf
+  Josefin_Sans/static/JosefinSans-ExtraLight.ttf
+  Josefin_Sans/static/JosefinSans-Light.ttf
+  Josefin_Sans/static/JosefinSans-Regular.ttf
+  Josefin_Sans/static/JosefinSans-Medium.ttf
+  Josefin_Sans/static/JosefinSans-SemiBold.ttf
+  Josefin_Sans/static/JosefinSans-Bold.ttf
+  Josefin_Sans/static/JosefinSans-ThinItalic.ttf
+  Josefin_Sans/static/JosefinSans-ExtraLightItalic.ttf
+  Josefin_Sans/static/JosefinSans-LightItalic.ttf
+  Josefin_Sans/static/JosefinSans-Italic.ttf
+  Josefin_Sans/static/JosefinSans-MediumItalic.ttf
+  Josefin_Sans/static/JosefinSans-SemiBoldItalic.ttf
+  Josefin_Sans/static/JosefinSans-BoldItalic.ttf
 
 Get started
 -----------
