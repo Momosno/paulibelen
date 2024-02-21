@@ -1,0 +1,253 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+
+  /* font-family: "Rubik", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400; */
+
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-style: normal;
+  text-align: center;
+}
+
+.hero {
+  width: 100%;
+  min-height: 100vh;
+
+  position: relative;
+  display: flex;
+  justify-content: center;
+
+
+  overflow-x: hidden;
+
+  background: rgba(74, 181, 52, 0.5);
+}
+
+
+.background-video {
+  position: absolute;
+  z-index: -1;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  min-height: 100%;
+  background: rgba(0, 0, 0, 0.5);
+
+}
+
+
+
+.main-container {
+
+  max-width: 750px;
+  min-height: 100%;
+  display: flex;
+
+  flex-direction: column;
+  align-items: center;
+
+  row-gap: 50px;
+
+  margin: 30px 15px 60px;
+
+
+  & .main-intro {
+    display: flex;
+    flex-direction: column;
+    margin: 5px;
+    row-gap: 25px;
+
+    align-items: center;
+
+    & .profile-picture {
+      position: relative;
+      width: 150px;
+      height: 150px;
+      overflow: hidden;
+      border-radius: 50%;
+
+      & img {
+        max-width: 90%;
+        /* max-width: 100%; */
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+      }
+    }
+  }
+}
+
+@media screen and (min-width: 980px) {
+
+  .main-container {
+    min-width: 600px;
+    max-width: 750px;
+  }
+
+
+}
+
+
+.model-text {
+  margin-bottom: -10px;
+  font-weight: 600;
+}
+
+
+
+
+.main-button-container {
+
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+  align-items: center;
+  justify-content: center;
+
+  width: 100%;
+
+
+  & li {
+    list-style: none;
+    width: inherit;
+
+
+    & a {
+
+      text-decoration: none;
+
+
+      & .button {
+
+        width: 100%;
+        height: 65px;
+        padding: 15px;
+
+        text-transform: uppercase;
+        outline: none;
+        border-radius: 10px;
+        border: none;
+        cursor: pointer;
+
+        background: rgba(36, 24, 24, 0.292);
+
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+
+        color: white;
+        font-weight: 600;
+        letter-spacing: 1px;
+        font-size: 18px;
+
+        & i {
+          font-size: 1.6rem;
+        }
+      }
+
+
+    }
+
+
+
+
+  }
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* // <uniquifier>: Use a uniquifier for the class name
+// <weight>: Use a value from 300 to 900
+
+.rubik-<uniquifier> {
+  font-family: "Rubik", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+} 
+
+
+-----------------
+
+.poppins-thin {
+  font-family: "Poppins", sans-serif;
+  font-weight: 100;
+  font-style: normal;
+}
+
+
+.poppins-regular {
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.poppins-medium {
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+}
+
+
+.poppins-bold {
+  font-family: "Poppins", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+}
+
+.poppins-regular-italic {
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-style: italic;
+}
+
+
+
+
+------------------------------
+
+// <uniquifier>: Use a uniquifier for the class name
+// <weight>: Use a value from 300 to 700
+
+.fredoka-<uniquifier> {
+  font-family: "Fredoka", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+}
+
+
+*/
